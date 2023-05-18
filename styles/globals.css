@@ -1,0 +1,56 @@
+.service {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tablefont {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width:480px) {
+  .tablefont {
+    font-size: 18px;
+  }
+
+}
+
+
+/* Dashboard */
+.dashboard {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+  padding: 5px;
+}
+
+.box1 {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #FFC300;
+}
+
+.box2 {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  background-color:  #FFC300;
+  /* color: white; */
+
+}
+
+.box3 {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  background-color:  #FFC300;
+}
+
+.box3 input {
+
+  border: none;
+}
