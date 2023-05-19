@@ -19,7 +19,7 @@ function Table({ data }) {
                     data.map((i, id) => {
                         return <tbody>
                         
-                        <tr>
+                        <tr key={id+1} >
                             <td scope="col">{id + 1}</td>
                             <td scope="col" >{i.name}</td>
                             <td scope="col" >{i.address}</td>
